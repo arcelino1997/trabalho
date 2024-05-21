@@ -1,0 +1,66 @@
+.link{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+main{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+header{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mim-div{
+    width: 80%;
+    height: auto;
+}
+.formacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formacao__container__logos{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.imagem-portfolio{
+    height: 100px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
